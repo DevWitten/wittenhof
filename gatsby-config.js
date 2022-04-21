@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Wittenhof | ESTMAK Capital | Uusarendus Endlas`,
+    title: `Wittenhof | ESTMAK Capital`,
     description: `Uusarendus Tallinna kesklinna vahetusläheduses. Korterid ja äripinnad looduslähedases kohas. Arendaja ESTMAK Capital.`,
     author: `@gatsbyjs`,
     siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
