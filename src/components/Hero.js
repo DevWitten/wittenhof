@@ -1,6 +1,7 @@
 import React from "react"
 import { StaticImage } from "gatsby-plugin-image"
 import { Link } from "gatsby"
+import msg from "../images/msg.png"
 
 const Hero = () => {
   return (
@@ -24,13 +25,7 @@ const Hero = () => {
         className="cta_container z-50 absolute flex bottom-0 right-0 bg-green"
       >
         <div className="cta_btn bg-brown p-4">
-          <StaticImage
-            src="../images/msg.png"
-            alt="Registreeru huviliseks"
-            width={40}
-            placeholder="blurred"
-            quality={100}
-          />
+          <img src={msg} alt="Registreeru huviliseks" width={40} />
         </div>
         <div className="cta_text bg-green flex w-full">
           <p className="px-4 m-auto text-2xl">Registreeru huvliseks</p>

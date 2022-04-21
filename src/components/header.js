@@ -2,6 +2,7 @@ import * as React from "react"
 import PropTypes from "prop-types"
 import { Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
+import logo from "../images/logo.svg"
 
 const Header = () => (
   <header
@@ -18,12 +19,7 @@ const Header = () => (
         textDecoration: `none`,
       }}
     >
-      <StaticImage
-        src="../images/logo_green.png"
-        alt="logo"
-        width="150"
-        quality={100}
-      />
+      <img src={logo} alt="logo" width={150} />
     </Link>
   </header>
 )

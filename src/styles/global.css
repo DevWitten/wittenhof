@@ -16,6 +16,37 @@ p {
     font-weight: 400;
 }
 
+.contact-form {
+    margin-top: 75px;
+}
+
+label {
+    color: #000;
+    font-weight: 500;
+}
+
+input {
+    background-color: #E8F0F2;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+input:focus-visible {
+    outline: none !important;
+    border:1px solid #976F53;
+}
+
+textarea {
+    background-color: #E8F0F2;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+textarea:focus-visible {
+    outline: none !important;
+    border:1px solid #976F53;
+}
+
 #hero {
     height: 100vh;
 }
@@ -49,18 +80,36 @@ p {
     text-shadow: 2px 2px 15px #000;
 }
 
-#about .img_wrapper {
-    height: 100vh;
-}
-
-#about .text_wrapper {
-    margin: 100px auto;
-}
-
 #about .text_wrapper p {
     margin-bottom: 20px;
 }
 
 #contact {
     margin: 100px auto;
+}
+
+.text-green {
+    color: #90B3B7;
+}
+
+.submit-btn {
+    transition: .5s;
+    color: #fff;
+    background-color:#90B3B7;
+}
+
+.submit-btn:hover {
+    transition: .5s;
+    color: #fff;
+    background-color:#976F53;
+}
+
+::-moz-selection { /* Code for Firefox */
+    color: #fff;
+    background: #90B3B7;
+}
+
+::selection {
+    color: #fff;
+    background: #90B3B7;
 }
