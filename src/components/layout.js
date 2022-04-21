@@ -28,11 +28,14 @@ const Layout = ({ children }) => {
       <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
       <>
         <main>{children}</main>
-        <footer className="flex">
-          <p>
-            © {new Date().getFullYear()}, {` `}
-          </p>
-          <a href="https://estmakcapital.ee/en/">Estmak capital</a>
+        <footer className="text-center bg-green">
+          <a
+            href="https://estmakcapital.ee/en/"
+            target="_blank"
+            className="text-center font-normal py-2"
+          >
+            Estmak capital
+          </a>
         </footer>
       </>
     </>
