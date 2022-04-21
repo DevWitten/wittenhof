@@ -102,13 +102,13 @@ textarea:focus-visible {
 .submit-btn {
     transition: .5s;
     color: #fff;
-    background-color:#90B3B7;
+    background-color:#976F53;
 }
 
 .submit-btn:hover {
     transition: .5s;
     color: #fff;
-    background-color:#976F53;
+    background-color:#90B3B7;
 }
 
 ::-moz-selection { /* Code for Firefox */

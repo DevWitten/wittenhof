@@ -1,34 +1,33 @@
 import React from "react"
-import { StaticImage } from "gatsby-plugin-image"
 import EstmakLogo from "../images/ESTMAK_capital_logo_must-1.png"
-import SuccessContactForm from "./SuccessContactForm"
 
 import { useForm, ValidationError } from "@formspree/react"
 
 const Contact = () => {
   const [state, handleSubmit] = useForm("mbjwzbwj")
 
-  if (state.succeeded) {
-    return <SuccessContactForm />
-  }
   return (
     <div id="contact" className="w-full">
       <div className="mx-auto lg:flex">
         <div className="w-full lg:w-1/2 flex">
-          <div className="w-3/5 m-auto contact_wrapper">
+          <div className="w-4/5 lg:w-3/5 m-auto contact_wrapper">
             <div className="w-full">
               <h2 className="text-4xl lg:text-6xl text-black my-2 mb-6">
                 Lisainfo ja broneerimine
               </h2>
               <ul className="space-y-4 border-l-2 border-black pl-3 mt-12 mb-8">
                 <li>
-                  <p className="text-2xl md:text-4xl font-thin">+372 5559 7351</p>
+                  <p className="text-2xl md:text-4xl font-thin">
+                    +372 5559 7351
+                  </p>
                 </li>
                 <li>
                   <p className="text-2xl font-thin">info@wittenhof.ee</p>
                 </li>
               </ul>
-              <img src={EstmakLogo} alt="ESTMAK capital" width={250} />
+              <a href="https://estmakcapital.ee/en/" target="_blank">
+                <img src={EstmakLogo} alt="ESTMAK capital" width={250} />
+              </a>
             </div>
           </div>
         </div>
@@ -96,7 +95,7 @@ const Contact = () => {
                   id="textarea"
                   type="tel"
                   name="textarea"
-                  rows={5}
+                  rows={4}
                   className="border block w-full rounded"
                 />
                 <ValidationError
@@ -105,6 +104,15 @@ const Contact = () => {
                   errors={state.errors}
                 />
               </div>
+              {state.succeeded ? (
+                <div className="bg-green rounded">
+                  <p className="p-4 font-thin text-2xl">
+                    Sinu päring on saadetud!
+                  </p>
+                </div>
+              ) : (
+                ""
+              )}
               <div className="w-full text-center">
                 <button
                   type="submit"

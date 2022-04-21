@@ -10,7 +10,6 @@ import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 
 import Header from "./header"
-import "./layout.css"
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -28,13 +27,13 @@ const Layout = ({ children }) => {
       <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
       <>
         <main>{children}</main>
-        <footer className="text-center bg-green -mb-2">
+        <footer className="text-center bg-green py-2">
           <a
             href="https://estmakcapital.ee/en/"
             target="_blank"
-            className="text-center font-normal py-2"
+            className="text-center font-normal"
           >
-            ESTMAK
+            ESTMAK Capital
           </a>
         </footer>
       </>

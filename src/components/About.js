@@ -21,6 +21,7 @@ const About = () => {
         </div>
         <div className="img_wrapper w-full lg:w-1/2 relative right z-10">
           <StaticImage
+            alt="Wittenhof korterid"
             src="../images/Pilt2.png"
             quality={100}
             className="object-cover mt-12 mx-8 shadow-lg"
@@ -30,6 +31,7 @@ const About = () => {
       <div className="mx-auto lg:flex my-8">
         <div className="img_wrapper w-full lg:w-1/2 relative left z-10 hidden lg:block">
           <StaticImage
+            alt="Wittenhof korterid"
             src="../images/Pilt3.png"
             quality={100}
             className="object-contain mt-12 mx-auto shadow-lg hidden lg:block w-4/5"
