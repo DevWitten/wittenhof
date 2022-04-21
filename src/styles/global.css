@@ -60,9 +60,16 @@ textarea:focus-visible {
     background-color: #976F53;
     color: #fff;
 }
+@media (max-width: 400px) {
+    .cta_container {
+        width: 100%;
+    }
+}
 
-.cta_container {
-    width: 400px;
+@media (min-width: 400px) {
+    .cta_container {
+        width: 400px;
+    }
 }
 
 .cta_text p {
