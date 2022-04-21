@@ -29,7 +29,7 @@ const About = () => {
         </div>
       </div>
       <div className="mx-auto lg:flex my-8">
-        <div className="img_wrapper w-full lg:w-1/2 relative left z-10 hidden lg:block">
+        <div className="img_wrapper w-full lg:w-1/2 relative left z-10 hidden lg:block text-center">
           <StaticImage
             alt="Wittenhof korterid"
             src="../images/Pilt3.png"
