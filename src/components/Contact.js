@@ -17,7 +17,7 @@ const Contact = () => {
         <div className="w-full lg:w-1/2 flex">
           <div className="w-3/5 m-auto contact_wrapper">
             <div className="w-full">
-              <h2 className="text-6xl text-black my-2 mb-6">
+              <h2 className="text-2xl md:text-4xl lg:text-6xl text-black my-2 mb-6">
                 Lisainfo ja broneerimine
               </h2>
               <ul className="space-y-4 border-l-2 border-black pl-3 mt-12 mb-8">
@@ -36,7 +36,7 @@ const Contact = () => {
           <div className="my-auto">
             <form
               onSubmit={handleSubmit}
-              className="w-3/5 space-y-4 my-4 mx-auto"
+              className="w-4/5 lg:w-3/5 space-y-4 my-4 mx-auto"
             >
               <div className="name">
                 <label htmlFor="name" className="block">
