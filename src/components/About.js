@@ -32,7 +32,7 @@ const About = () => {
           <StaticImage
             src="../images/Pilt3.png"
             quality={100}
-            className="object-contain mt-12 mx-8 shadow-lg hidden lg:block"
+            className="object-contain mt-12 mx-auto shadow-lg hidden lg:block w-4/5"
           />
         </div>
         <div className="w-full lg:w-1/2 right z-20 my-auto">
