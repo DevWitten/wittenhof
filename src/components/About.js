@@ -27,6 +27,28 @@ const About = () => {
           />
         </div>
       </div>
+      <div className="mx-auto lg:flex my-8">
+        <div className="img_wrapper w-full lg:w-1/2 relative left z-10 hidden lg:block">
+          <StaticImage
+            src="../images/Pilt3.png"
+            quality={100}
+            className="object-contain mt-12 mx-8 shadow-lg hidden lg:block"
+          />
+        </div>
+        <div className="w-full lg:w-1/2 right z-20 my-auto">
+          <div className="w-4/5 mx-auto text_wrapper">
+            <h2 className="text-4xl text-black my-2 mb-6">
+              Roheline elukeskond
+            </h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos
+              beatae excepturi quod ad repellendus, deserunt molestiae
+              repudiandae maiores inventore maxime porro voluptatem suscipit
+              dicta? Illo!
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
   )
 }
