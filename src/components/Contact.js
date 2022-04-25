@@ -1,5 +1,7 @@
 import React from "react"
 import EstmakLogo from "../images/ESTMAK_capital_logo_must-1.png"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { faFacebook, faLinkedin } from "@fortawesome/free-brands-svg-icons"
 
 import { useForm, ValidationError } from "@formspree/react"
 
@@ -13,18 +15,37 @@ const Contact = () => {
           <div className="w-4/5 lg:w-3/5 m-auto contact_wrapper">
             <div className="w-full">
               <h2 className="text-4xl lg:text-6xl text-black my-2 mb-6">
-                Lisainfo ja broneerimine
+                Lisainfo
               </h2>
+              <p>
+                Kui Wittenhofi elamu- ja ärikvartalis võiks asuda Sinu tulevane
+                kodu või töökoht, siis jäta meile oma kontaktid ning võtame
+                Sinuga ühendust veel enne avaliku müügi algust.
+              </p>
               <ul className="space-y-4 border-l-2 border-black pl-3 mt-12 mb-8">
                 <li>
                   <p className="text-2xl md:text-4xl font-thin">
-                    +372 5559 7351
+                    +372 5529 138
                   </p>
                 </li>
                 <li>
                   <p className="text-2xl font-thin">info@wittenhof.ee</p>
                 </li>
               </ul>
+              <a
+                href="https://facebook.com/estmakcapital"
+                target="_blank"
+                className="social-icon mr-3"
+              >
+                <FontAwesomeIcon icon={faFacebook} color="#90B3B7" size="2xl" />
+              </a>
+              <a
+                href="https://www.linkedin.com/in/estmak-capital-69a250185/"
+                target="_blank"
+                className="social-icon"
+              >
+                <FontAwesomeIcon icon={faLinkedin} color="#90B3B7" size="2xl" />
+              </a>
               <a href="https://estmakcapital.ee/en/" target="_blank">
                 <img src={EstmakLogo} alt="ESTMAK capital" width={250} />
               </a>
@@ -55,7 +76,7 @@ const Contact = () => {
               </div>
               <div className="email">
                 <label htmlFor="email" className="block">
-                  Email
+                  E-mail
                 </label>
                 <input
                   id="email"
