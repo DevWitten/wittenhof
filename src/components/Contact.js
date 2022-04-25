@@ -35,6 +35,7 @@ const Contact = () => {
               <a
                 href="https://facebook.com/estmakcapital"
                 target="_blank"
+                rel="noreferrer"
                 className="social-icon mr-3"
               >
                 <FontAwesomeIcon icon={faFacebook} color="#90B3B7" size="2xl" />
@@ -42,11 +43,16 @@ const Contact = () => {
               <a
                 href="https://www.linkedin.com/in/estmak-capital-69a250185/"
                 target="_blank"
+                rel="noreferrer"
                 className="social-icon"
               >
                 <FontAwesomeIcon icon={faLinkedin} color="#90B3B7" size="2xl" />
               </a>
-              <a href="https://estmakcapital.ee/en/" target="_blank">
+              <a
+                href="https://estmakcapital.ee/en/"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <img src={EstmakLogo} alt="ESTMAK capital" width={250} />
               </a>
             </div>

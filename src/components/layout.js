@@ -31,6 +31,7 @@ const Layout = ({ children }) => {
           <a
             href="https://estmakcapital.ee/en/"
             target="_blank"
+            rel="noreferrer"
             className="text-center font-normal"
           >
             ESTMAK Capital

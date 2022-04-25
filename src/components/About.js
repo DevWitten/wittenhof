@@ -92,7 +92,7 @@ const About = () => {
             elamispindadele. Ärihoone mahtu on ettenähtud sisehoovi avaneva
             terrassiga restoran nii majalistele kui ka teistele klientidele.
             Wittenhofi elamu- ja ärikvartali arhitektideks on{" "}
-            <a href="https://www.dagopen.ee/" target="_blank">
+            <a href="https://www.dagopen.ee/" rel="noreferrer" target="_blank">
               arhitektuuribüroo DAGOpen
             </a>
             arhitektid Jaan Kuusemets ja Keiu Tulev.

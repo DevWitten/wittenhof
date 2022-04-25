@@ -130,3 +130,14 @@ textarea:focus-visible {
     transition: .5s;
     color: #976F53;
 }
+
+.page_not_found_wrapper {
+    min-height: 100vh;
+}
+
+.btn-home {
+    background-color: #976F53;
+    display: inline;
+    padding: 5px 15px;
+    color: #fff;
+}
