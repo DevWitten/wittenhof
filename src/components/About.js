@@ -77,6 +77,8 @@ const About = () => {
             tuletõkkesektsioonidesse. Samas on välditud pikki ja sirgeid
             koridore ning ühiste ruumide ja hajumisalade aladimensioneerimist,
             mis vähendaks pindade kasutusmugavust, soliidsust ja väärikust.
+          </p>
+          <p>
             Endla tänava äärse hoone madalama, kahe korruselise mahu vahelisele
             katusele on mõeldud luua ühisala ning katuseterrass, mis on
             kavandatud haljastada vähenõudlike ja hooldusvabade taimedega.
