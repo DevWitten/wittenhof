@@ -123,6 +123,7 @@ textarea:focus-visible {
 
 .social-icon svg {
     transition: .5s;
+    margin-right: 10px;
 }
 
 .social-icon svg:hover {
