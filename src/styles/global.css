@@ -72,7 +72,34 @@ textarea:focus-visible {
     }
 }
 
+.cta_text {
+    width: 250px;
+    height: 250px;
+}
+
+.cta_link .cta_text {
+    width: 250px;
+    height: 250px;
+    transition: 0.5s;
+    color: #fff;
+    background-color: #976F53;
+}
+
+.cta_link .cta_text:hover{
+    transition: .5s;
+    background-color: #90B3B7;
+}
+
 .cta_text p {
+    font-weight: 300;
+}
+
+.cta_text span {
+    letter-spacing: 8px;
+    margin-left: 6px;
+}
+
+.cta_btn_mobile {
     font-weight: 300;
 }
 
