@@ -32,22 +32,32 @@ const Contact = () => {
                   <p className="text-2xl font-thin">info@wittenhof.ee</p>
                 </li>
               </ul>
-              <a
-                href="https://facebook.com/estmakcapital"
-                target="_blank"
-                rel="noreferrer"
-                className="social-icon mr-3"
-              >
-                <FontAwesomeIcon icon={faFacebook} color="#90B3B7" size="2xl" />
-              </a>
-              <a
-                href="https://www.linkedin.com/in/estmak-capital-69a250185/"
-                target="_blank"
-                rel="noreferrer"
-                className="social-icon"
-              >
-                <FontAwesomeIcon icon={faLinkedin} color="#90B3B7" size="2xl" />
-              </a>
+              <div className="flex">
+                <a
+                  href="https://facebook.com/estmakcapital"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="social-icon mr-3"
+                >
+                  <FontAwesomeIcon
+                    icon={faFacebook}
+                    color="#90B3B7"
+                    size="2xl"
+                  />
+                </a>
+                <a
+                  href="https://www.linkedin.com/in/estmak-capital-69a250185/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="social-icon"
+                >
+                  <FontAwesomeIcon
+                    icon={faLinkedin}
+                    color="#90B3B7"
+                    size="2xl"
+                  />
+                </a>
+              </div>
               <a
                 href="https://estmakcapital.ee/en/"
                 target="_blank"

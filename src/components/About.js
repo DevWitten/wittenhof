@@ -7,7 +7,9 @@ const About = () => {
       <div className="mx-auto lg:flex my-8">
         <div className="w-full lg:w-1/2 left z-20 my-auto">
           <div className="w-4/5 mx-auto text_wrapper">
-            <h2 className="text-6xl text-black my-2 mb-6">Naabruskond</h2>
+            <h2 className="text-2xl md:text-6xl text-black my-2 mb-6">
+              Naabruskond
+            </h2>
             <p>
               Wittenhofi elamu- ja ärikvartal asub strateegiliselt heas asukohas
               – siit pääseb mugavalt liikuma linna eri suundadesse nii jalgsi,
