@@ -73,13 +73,13 @@ textarea:focus-visible {
 }
 
 .cta_text {
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
 }
 
 .cta_link .cta_text {
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
     transition: 0.5s;
     color: #fff;
     background-color: #976F53;
@@ -95,9 +95,10 @@ textarea:focus-visible {
 }
 
 .cta_text span {
-    letter-spacing: 8px;
+    letter-spacing: 6px;
     margin-left: 6px;
 }
+
 
 .cta_btn_mobile {
     font-weight: 300;

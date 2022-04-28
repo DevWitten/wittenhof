@@ -26,9 +26,9 @@ const Hero = () => {
         className="cta_link z-50 absolute hidden md:flex bottom-0 right-0 bg-green"
       >
         <div className="cta_text w-full flex">
-          <div className="p-4 text-center m-auto">
-            <p className="text-2xl uppercase">Registreeru</p>
-            <span className="text-lg uppercase">huvliseks</span>
+          <div className="text-center m-auto">
+            <p className="text-xl uppercase">Registreeru</p>
+            <span className="text-md uppercase">huvliseks</span>
             <img
               src={arrowDown}
               alt="Registreeru huviliseks"

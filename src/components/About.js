@@ -7,7 +7,7 @@ const About = () => {
       <div className="mx-auto lg:flex my-8">
         <div className="w-full lg:w-1/2 left z-20 my-auto">
           <div className="w-4/5 mx-auto text_wrapper">
-            <h2 className="text-2xl md:text-6xl text-black my-2 mb-6">
+            <h2 className="text-4xl md:text-6xl text-black my-2 mb-6">
               Naabruskond
             </h2>
             <p>
@@ -40,17 +40,21 @@ const About = () => {
             src="../images/Pilt3.png"
             quality={100}
             className="object-contain mt-12 mx-auto shadow-lg hidden lg:block w-4/5"
-          />{" "}
-          <StaticImage
-            alt="Wittenhof korterid"
-            src="../images/Pilt4.png"
-            quality={100}
-            className="object-contain mt-12 mx-auto shadow-lg hidden lg:block w-4/5"
           />
+          <div className="mx-auto">
+            <StaticImage
+              alt="Wittenhof korterid"
+              src="../images/Pilt1.png"
+              quality={100}
+              className="object-contain mt-12 mx-auto mr-8 shadow-lg hidden lg:block w-4/5"
+            />
+          </div>
         </div>
         <div className="w-full lg:w-1/2 right z-20 my-auto">
           <div className="w-4/5 mx-auto text_wrapper">
-            <h2 className="text-4xl text-black my-2 mb-6">Arhitektuur</h2>
+            <h2 className="text-4xl md:text-6xl text-black my-2 mb-6">
+              Arhitektuur
+            </h2>
             <p>
               Ärihoone ilus ning õhulisena mõjuv hoone sünteesib oskuslikult
               kaasaegse, paindliku töökeskkonna vajadusi. Meeldejääv, tööstuslik

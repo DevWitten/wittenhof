@@ -18,7 +18,7 @@ const Header = () => (
         textDecoration: `none`,
       }}
     >
-      <img src={logo} alt="logo" width={200} />
+      <img src={logo} alt="logo" width={175} className="logo" />
     </Link>
   </header>
 )
