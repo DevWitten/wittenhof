@@ -28,7 +28,7 @@ const Hero = () => {
         <div className="cta_text w-full flex">
           <div className="text-center m-auto">
             <p className="text-xl uppercase">Registreeru</p>
-            <span className="text-md uppercase">huvliseks</span>
+            <span className="text-md uppercase">huviliseks</span>
             <img
               src={arrowDown}
               alt="Registreeru huviliseks"

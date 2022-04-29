@@ -1,5 +1,12 @@
 import React from "react"
 import { StaticImage } from "gatsby-plugin-image"
+import SimpleImageSlider from "react-simple-image-slider"
+
+import Pilt1 from "../images/Frame25.png"
+import Pilt2 from "../images/Frame26.png"
+import Pilt4 from "../images/Frame28.png"
+
+const images = [{ url: Pilt4 }, { url: Pilt1 }, { url: Pilt2 }]
 
 const About = () => {
   return (
@@ -10,7 +17,7 @@ const About = () => {
             <h2 className="text-4xl md:text-6xl text-black my-2 mb-6">
               Naabruskond
             </h2>
-            <p>
+            <p className="text-justify">
               Wittenhofi elamu- ja ärikvartal asub strateegiliselt heas asukohas
               – siit pääseb mugavalt liikuma linna eri suundadesse nii jalgsi,
               ratta, tõuksi, auto kui ka ühistranspordiga. Kõrgematelt
@@ -24,7 +31,7 @@ const About = () => {
             </p>
           </div>
         </div>
-        <div className="img_wrapper w-full lg:w-1/2 relative right z-10">
+        <div className="img_wrapper w-full lg:w-1/2 relative right z-10 m-auto">
           <StaticImage
             alt="Wittenhof korterid"
             src="../images/Pilt2.png"
@@ -34,28 +41,25 @@ const About = () => {
         </div>
       </div>
       <div className="mx-auto lg:flex my-8">
-        <div className="img_wrapper w-full lg:w-1/2 relative left z-10 hidden lg:block text-center">
-          <StaticImage
-            alt="Wittenhof korterid"
-            src="../images/Pilt3.png"
-            quality={100}
-            className="object-contain mt-12 mx-auto shadow-lg hidden lg:block w-4/5"
+        <div className="img_wrapper w-full lg:w-1/2 relative left z-10 hidden lg:block text-center m-auto overflow-hidden">
+          <SimpleImageSlider
+            width={600}
+            height={400}
+            images={images}
+            showBullets={false}
+            showNavs={false}
+            style={{ margin: `auto` }}
+            autoPlayDelay={6}
+            autoPlay={true}
+            slideDuration={1}
           />
-          <div className="mx-auto">
-            <StaticImage
-              alt="Wittenhof korterid"
-              src="../images/Pilt1.png"
-              quality={100}
-              className="object-contain mt-12 mx-auto mr-8 shadow-lg hidden lg:block w-4/5"
-            />
-          </div>
         </div>
         <div className="w-full lg:w-1/2 right z-20 my-auto">
           <div className="w-4/5 mx-auto text_wrapper">
-            <h2 className="text-4xl md:text-6xl text-black my-2 mb-6">
+            <h2 className="text-4xl md:text-6xl text-black mt-6 mb-6">
               Arhitektuur
             </h2>
-            <p>
+            <p className="text-justify">
               Ärihoone ilus ning õhulisena mõjuv hoone sünteesib oskuslikult
               kaasaegse, paindliku töökeskkonna vajadusi. Meeldejääv, tööstuslik
               ja samas ajatu arhitektuurne vorm on sümbioosis funktsionaalsuse
@@ -67,7 +71,7 @@ const About = () => {
               lahendatud praktilisusest ja kasutusmugavusest lähtuvalt, kuid
               mõjuvad sealjuures ka soliidselt ja väärikalt.
             </p>
-            <p>
+            <p className="text-justify">
               Hoone kaht püstakut ühendava osa katusele on planeeritud
               ühiskasutatav katuseterrass, mis haljastatakse vähenõudlike ja
               hooldusvabade taimedega. Ärihoone nn “voldikfassaad” on
@@ -85,9 +89,10 @@ const About = () => {
                 href="https://www.dagopen.ee/"
                 rel="noreferrer"
                 target="_blank"
+                className="underline"
               >
                 arhitektuuribüroo DAGOpen
-              </a>
+              </a>{" "}
               arhitektid Jaan Kuusemets ja Keiu Tulev.
             </p>
           </div>

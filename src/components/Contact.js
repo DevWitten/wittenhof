@@ -10,18 +10,21 @@ const Contact = () => {
 
   return (
     <div id="contact" className="w-full">
+      <div className="text-center w-1/2 mx-auto mb-8">
+        <h2 className="text-center text-4xl lg:text-6xl text-black my-2 mb-6">
+          Lisainfo
+        </h2>
+
+        <p>
+          Kui Wittenhofi elamu- ja ärikvartalis võiks asuda Sinu tulevane kodu
+          või töökoht, siis jäta meile oma kontaktid ning võtame Sinuga ühendust
+          veel enne avaliku müügi algust.
+        </p>
+      </div>
       <div className="mx-auto lg:flex">
         <div className="w-full lg:w-1/2 flex">
-          <div className="w-4/5 lg:w-3/5 m-auto contact_wrapper">
+          <div className="w-4/5 lg:w-3/5 mx-auto mt-8 contact_wrapper">
             <div className="w-full">
-              <h2 className="text-4xl lg:text-6xl text-black my-2 mb-6">
-                Lisainfo
-              </h2>
-              <p>
-                Kui Wittenhofi elamu- ja ärikvartalis võiks asuda Sinu tulevane
-                kodu või töökoht, siis jäta meile oma kontaktid ning võtame
-                Sinuga ühendust veel enne avaliku müügi algust.
-              </p>
               <ul className="space-y-4 border-l-2 border-black pl-3 mt-12 mb-8">
                 <li>
                   <p className="text-2xl md:text-4xl font-thin">

@@ -95,10 +95,13 @@ textarea:focus-visible {
 }
 
 .cta_text span {
-    letter-spacing: 6px;
+    letter-spacing: 5px;
     margin-left: 6px;
 }
 
+#about h2 {
+    color: #90B3B7;
+}
 
 .cta_btn_mobile {
     font-weight: 300;
