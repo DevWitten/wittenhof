@@ -15,7 +15,7 @@ const Contact = () => {
           Lisainfo
         </h2>
 
-        <p>
+        <p className="w-4/5">
           Kui Wittenhofi elamu- ja ärikvartalis võiks asuda Sinu tulevane kodu
           või töökoht, siis jäta meile oma kontaktid ning võtame Sinuga ühendust
           veel enne avaliku müügi algust.
