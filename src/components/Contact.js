@@ -10,7 +10,7 @@ const Contact = () => {
 
   return (
     <div id="contact" className="w-full">
-      <div className="text-center w-1/2 mx-auto mb-8">
+      <div className="text-center w-full md:w-1/2 mx-auto mb-8">
         <h2 className="text-center text-4xl lg:text-6xl text-black my-2 mb-6">
           Lisainfo
         </h2>
