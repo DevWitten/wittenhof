@@ -126,6 +126,10 @@ textarea:focus-visible {
     margin: 100px auto;
 }
 
+#contact h2 {
+    color:#90B3B7;
+}
+
 .text-green {
     color: #90B3B7;
 }
@@ -171,4 +175,15 @@ textarea:focus-visible {
     display: inline;
     padding: 5px 15px;
     color: #fff;
+}
+
+#history ul li {
+    text-align:justify;
+}
+
+#history h2 {
+    color:#90B3B7;
+}
+#history h3 {
+    color:#90B3B7;
 }
