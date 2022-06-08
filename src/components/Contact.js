@@ -49,7 +49,7 @@ const Contact = () => {
                   />
                 </a>
                 <a
-                  href="https://www.linkedin.com/in/estmak-capital-69a250185/"
+                  href="https://ee.linkedin.com/company/estmak-capital"
                   target="_blank"
                   rel="noreferrer"
                   className="social-icon"
@@ -126,6 +126,13 @@ const Contact = () => {
                   field="phone"
                   errors={state.errors}
                 />
+              </div>
+              <div className="interests">
+                <label htmlFor="huvitatud">Olen huvitatud:</label>
+                <select name="huvitatud">
+                  <option value="Äripinnast">Äripinnast</option>
+                  <option value="Korterist">Korterist</option>
+                </select>
               </div>
               <div className="textarea">
                 <label htmlFor="textarea" className="block">
