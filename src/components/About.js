@@ -10,8 +10,8 @@ const images = [{ url: Pilt4 }, { url: Pilt1 }, { url: Pilt2 }]
 
 const About = () => {
   return (
-    <div id="about" className="w-full h-full mb-16">
-      <div className="mx-auto lg:flex my-8">
+    <div id="about" className="w-full h-full">
+      <div className="mx-auto lg:flex py-8">
         <div className="w-full lg:w-1/2 left z-20 my-auto">
           <div className="w-4/5 mx-auto text_wrapper">
             <h2 className="text-4xl md:text-6xl text-black my-2 mb-6">
@@ -40,7 +40,7 @@ const About = () => {
           />
         </div>
       </div>
-      <div className="mx-auto lg:flex my-8">
+      <div className="mx-auto lg:flex py-8">
         <div className="img_wrapper w-full lg:w-1/2 relative left z-10 hidden lg:block text-center m-auto overflow-hidden">
           <SimpleImageSlider
             width={600}

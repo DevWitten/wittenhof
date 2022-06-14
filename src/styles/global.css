@@ -16,6 +16,14 @@ p {
     font-weight: 400;
 }
 
+#history {
+    background-color: #90B3B7;
+    color: #fff;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-bottom: 5px solid #c39f75;
+}
+
 .contact-form {
     margin-top: 75px;
 }
@@ -49,6 +57,7 @@ textarea:focus-visible {
 
 #hero {
     height: 100vh;
+    border-bottom: 5px solid #c39f75;
 }
 
 .bg-green {
@@ -99,6 +108,10 @@ textarea:focus-visible {
     margin-left: 6px;
 }
 
+#about {
+    border-bottom: 5px solid #c39f75;
+}
+
 #about h2 {
     color: #90B3B7;
 }
@@ -122,9 +135,9 @@ textarea:focus-visible {
     margin-bottom: 20px;
 }
 
-#contact {
+/* #contact {
     margin: 100px auto;
-}
+} */
 
 #contact h2 {
     color:#90B3B7;
@@ -179,11 +192,4 @@ textarea:focus-visible {
 
 #history ul li {
     text-align:justify;
-}
-
-#history h2 {
-    color:#90B3B7;
-}
-#history h3 {
-    color:#90B3B7;
 }

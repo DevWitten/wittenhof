@@ -2,9 +2,9 @@ import React from "react"
 
 const History = () => {
   return (
-    <div id="history" className="w-full h-full mb-16">
+    <div id="history" className="w-full h-full shadow-xl">
       <div className="w-11/12 text_wrapper mx-auto">
-        <h2 className="text-4xl md:text-4xl text-black mt-6 mb-6">
+        <h2 className="text-4xl md:text-4xl text-white mt-6 mb-6">
           Mõned põnevad faktid minevikust:
         </h2>
       </div>
@@ -12,7 +12,7 @@ const History = () => {
         <div className="w-full lg:w-1/2 right z-20 my-auto">
           <div className="w-4/5 mx-auto text_wrapper">
             <p>
-              <ul className="list-disc">
+              <ul className="list-disc space-y-2">
                 <li>
                   Lilleküla on saanud oma nime piirkonnas asunud imeliste
                   lilleliste heinamaade järgi. Armas puitmajadega hoonestatud
@@ -60,7 +60,7 @@ const History = () => {
         <div className="w-full lg:w-1/2 right z-20 my-auto">
           <div className="w-4/5 mx-auto text_wrapper">
             <p>
-              <ul className="list-disc">
+              <ul className="list-disc space-y-2">
                 <li>
                   Keemia, Metalli ja Välja tänavad asuvad kõik endise Wittenhofi
                   mõisa aladel.
@@ -113,7 +113,7 @@ const History = () => {
       </div>
       <div className="w-11/12 text_wrapper mx-auto">
         <div className="w-full lg:w-3/4">
-          <h3 className="text-4xl md:text-4xl text-black mt-6 mb-6">
+          <h3 className="text-4xl md:text-4xl text-white mb-6 mt-6">
             Olevik ja tulevik
           </h3>
           <p className="pb-4">

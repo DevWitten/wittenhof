@@ -11,7 +11,7 @@ const Contact = () => {
   return (
     <div id="contact" className="w-full">
       <div className="text-center w-full md:w-1/2 mx-auto mb-8">
-        <h2 className="text-center text-4xl lg:text-6xl text-black my-2 mb-6">
+        <h2 className="text-center text-4xl lg:text-6xl text-black mb-2 mt-16 mb-6">
           Lisainfo
         </h2>
 
@@ -61,6 +61,7 @@ const Contact = () => {
                   />
                 </a>
               </div>
+              <p className="pt-4">Arendaja:</p>
               <a
                 href="https://estmakcapital.ee/en/"
                 target="_blank"
