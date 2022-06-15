@@ -1,5 +1,6 @@
 import React from "react"
 import EstmakLogo from "../images/ESTMAK_capital_logo_must-1.png"
+import bigELetter from "../images/Logo_Estmak_Dark.png"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faFacebook, faLinkedin } from "@fortawesome/free-brands-svg-icons"
 
@@ -7,7 +8,6 @@ import { useForm, ValidationError } from "@formspree/react"
 
 const Contact = () => {
   const [state, handleSubmit] = useForm("mbjwzbwj")
-
   return (
     <div id="contact" className="w-full">
       <div className="text-center w-full md:w-1/2 mx-auto mb-8">
@@ -21,7 +21,7 @@ const Contact = () => {
           veel enne avaliku müügi algust.
         </p>
       </div>
-      <div className="mx-auto lg:flex">
+      <div className="mx-auto w-full lg:w-4/5 lg:flex relative">
         <div className="w-full lg:w-1/2 flex">
           <div className="w-4/5 lg:w-3/5 mx-auto mt-8 contact_wrapper">
             <div className="w-full">
