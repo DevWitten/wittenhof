@@ -10,10 +10,10 @@ const Contact = () => {
   return (
     <div id="contact" className="w-full">
       <div className="w-full md:w-4/5 mx-auto mb-8">
-        <h2 className="w-full md:w-4/5 mx-auto text-4xl lg:text-6xl mt-16 mb-6">
+        <h2 className="w-full px-4 md:px-0 md:w-4/5 mx-auto text-4xl lg:text-6xl mt-16 mb-6">
           Võta ühendust
         </h2>
-        <p className="w-full md:w-4/5 mx-auto">
+        <p className="w-full px-4 md:px-0 md:w-4/5 mx-auto">
           Kui Wittenhofi elamu- ja ärikvartalis võiks asuda Sinu tulevane kodu
           või töökoht, siis jäta meile oma kontaktid ning võtame Sinuga ühendust
           veel enne avaliku müügi algust.
@@ -148,7 +148,7 @@ const Contact = () => {
                   className="my-4"
                 />
               </a>
-              <div className="flex">
+              <div className="flex mb-4">
                 <a
                   href="https://facebook.com/estmakcapital"
                   target="_blank"

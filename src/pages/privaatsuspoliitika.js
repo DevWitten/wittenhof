@@ -7,7 +7,7 @@ const IndexPage = () => (
   <Layout>
     <Seo title="Privaatsuspoliitika" />
     <div id="privacy" className="w-full h-full">
-      <div className="mx-auto w-4/5 py-16 text-black">
+      <div className="mx-auto w-4/5 pb-16 pt-32 md:pt-16 text-black">
         <h1 className="text-center text-3xl mt-16 mb-8">Privaatsuspoliitika</h1>
         <h2 className="text-2xl text-black">1. Üldosa </h2>
         <p>
