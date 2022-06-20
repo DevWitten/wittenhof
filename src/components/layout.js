@@ -35,6 +35,10 @@ const Layout = ({ children }) => {
             className="text-center font-normal"
           >
             ESTMAK Capital
+          </a>{" "}
+          -{" "}
+          <a href="/privaatsuspoliitika" className="text-center font-medium">
+            Privaatsuspoliitika
           </a>
         </footer>
       </>
