@@ -29,8 +29,8 @@ const Contact = () => {
               <div className="interests">
                 <label htmlFor="huvitatud">Olen huvitatud:</label>
                 <select name="huvitatud">
-                  <option value="Äripinnast">Äripinnast</option>
                   <option value="Korterist">Korterist</option>
+                  <option value="Äripinnast">Äripinnast</option>
                 </select>
               </div>
               <div className="name">
