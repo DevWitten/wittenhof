@@ -2,137 +2,133 @@
 @tailwind components;
 @tailwind utilities;
 
-html, body
-{
-    scroll-behavior: smooth;
-    font-family: 'Helvetica', 'Arial', sans-serif;
-    color: #171717;
-    font-weight: 300;
-    font-size: 16px;
-    background-color: #fff;
+html,
+body {
+  scroll-behavior: smooth;
+  font-family: "Helvetica", "Arial", sans-serif;
+  color: #171717;
+  font-weight: 300;
+  font-size: 16px;
+  background-color: #fff;
 }
 
 p {
-    font-weight: 400;
+  font-weight: 400;
 }
 
 #history {
-    background-color: #90B3B7;
-    color: #fff;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    border-bottom: 5px solid #c39f75;
+  background-color: #90b3b7;
+  color: #fff;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  border-bottom: 5px solid #c39f75;
 }
 
 .contact-form {
-    margin-top: 75px;
+  margin-top: 75px;
 }
 
 label {
-    color: #000;
-    font-weight: 500;
+  color: #000;
+  font-weight: 500;
 }
 
 input {
-    background-color: #E8F0F2;
-    padding: 10px;
-    margin-top: 5px;
+  background-color: #e8f0f2;
+  padding: 10px;
+  margin-top: 5px;
 }
 
 input:focus-visible {
-    outline: none !important;
-    border:1px solid #976F53;
+  outline: none !important;
+  border: 1px solid #976f53;
 }
 
 textarea {
-    background-color: #E8F0F2;
-    padding: 10px;
-    margin-top: 5px;
+  background-color: #e8f0f2;
+  padding: 10px;
+  margin-top: 5px;
 }
 
 textarea:focus-visible {
-    outline: none !important;
-    border:1px solid #976F53;
+  outline: none !important;
+  border: 1px solid #976f53;
 }
 
 #hero {
-    height: 100vh;
-    border-bottom: 5px solid #c39f75;
+  height: 100vh;
+  border-bottom: 5px solid #c39f75;
 }
 
 .bg-green {
-    background-color: #90B3B7;
-    color: #fff;
+  background-color: #90b3b7;
+  color: #fff;
 }
 
 .bg-brown {
-    background-color: #976F53;
-    color: #fff;
+  background-color: #976f53;
+  color: #fff;
 }
 @media (max-width: 400px) {
-    .cta_container {
-        width: 100%;
-    }
+  .cta_container {
+    width: 100%;
+  }
 }
 
 @media (min-width: 400px) {
-    .cta_container {
-        width: 400px;
-    }
+  .cta_container {
+    width: 400px;
+  }
 }
 
 .cta_text {
-    width: 200px;
-    height: 200px;
+  width: 200px;
+  height: 200px;
 }
 
 .cta_link .cta_text {
-    width: 200px;
-    height: 200px;
-    transition: 0.5s;
-    color: #fff;
-    background-color: #976F53;
+  width: 200px;
+  height: 200px;
+  transition: 0.5s;
+  color: #fff;
+  background-color: #976f53;
 }
 
-.cta_link .cta_text:hover{
-    transition: .5s;
-    background-color: #90B3B7;
+.cta_link .cta_text:hover {
+  transition: 0.5s;
+  background-color: #90b3b7;
 }
 
 .cta_text p {
-    font-weight: 300;
+  font-weight: 300;
 }
 
 .cta_text span {
-    letter-spacing: 5px;
-    margin-left: 6px;
-}
-
-#about {
-    border-bottom: 5px solid #c39f75;
+  letter-spacing: 5px;
+  margin-left: 6px;
 }
 
 #about h2 {
-    color: #90B3B7;
+  color: #90b3b7;
 }
 
 .cta_btn_mobile {
-    font-weight: 300;
+  font-weight: 300;
 }
 
 #hero .title_wrapper {
-    bottom: 15%;
-    left: 3%;
-    border-left: 3px solid #fff;
+  bottom: 15%;
+  left: 3%;
+  border-left: 3px solid #fff;
 }
 
 #hero .title_wrapper h1 {
-    line-height: 142%;
-    text-shadow: 2px 2px 15px #000;
+  line-height: 142%;
+  text-shadow: 2px 2px 15px #000;
 }
 
 #about .text_wrapper p {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 /* #contact {
@@ -140,56 +136,57 @@ textarea:focus-visible {
 } */
 
 #contact h2 {
-    color:#90B3B7;
+  color: #90b3b7;
 }
 
 .text-green {
-    color: #90B3B7;
+  color: #90b3b7;
 }
 
 .submit-btn {
-    transition: .5s;
-    color: #fff;
-    background-color:#976F53;
+  transition: 0.5s;
+  color: #fff;
+  background-color: #976f53;
 }
 
 .submit-btn:hover {
-    transition: .5s;
-    color: #fff;
-    background-color:#90B3B7;
+  transition: 0.5s;
+  color: #fff;
+  background-color: #90b3b7;
 }
 
-::-moz-selection { /* Code for Firefox */
-    color: #fff;
-    background: #90B3B7;
+::-moz-selection {
+  /* Code for Firefox */
+  color: #fff;
+  background: #90b3b7;
 }
 
 ::selection {
-    color: #fff;
-    background: #90B3B7;
+  color: #fff;
+  background: #90b3b7;
 }
 
 .social-icon svg {
-    transition: .5s;
-    margin-right: 10px;
+  transition: 0.5s;
+  margin-right: 10px;
 }
 
 .social-icon svg:hover {
-    transition: .5s;
-    color: #976F53;
+  transition: 0.5s;
+  color: #976f53;
 }
 
 .page_not_found_wrapper {
-    min-height: 100vh;
+  min-height: 100vh;
 }
 
 .btn-home {
-    background-color: #976F53;
-    display: inline;
-    padding: 5px 15px;
-    color: #fff;
+  background-color: #976f53;
+  display: inline;
+  padding: 5px 15px;
+  color: #fff;
 }
 
 #history ul li {
-    text-align:justify;
+  text-align: justify;
 }
