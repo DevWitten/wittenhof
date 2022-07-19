@@ -8,7 +8,7 @@ import { useForm, ValidationError } from "@formspree/react"
 const Contact = () => {
   const [state, handleSubmit] = useForm("mbjwzbwj")
   return (
-    <div id="contact" className="w-full">
+    <div id="contact" className="w-full relative pt-4">
       <div className="w-full md:w-4/5 mx-auto mb-8">
         <h2 className="w-full px-4 md:px-0 md:w-4/5 mx-auto text-4xl lg:text-6xl mt-16 mb-6">
           Võta ühendust

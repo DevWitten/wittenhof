@@ -6,12 +6,14 @@ import Pilt1 from "../images/Frame25.png"
 import Pilt2 from "../images/Frame26.png"
 import Pilt4 from "../images/Frame28.png"
 
+import squares from "../images/squares.svg"
+
 const images = [{ url: Pilt4 }, { url: Pilt1 }, { url: Pilt2 }]
 
 const About = () => {
   return (
-    <div id="about" className="w-full h-full">
-      <div className="mx-auto lg:flex py-8">
+    <div id="about" className="w-full h-full z-20">
+      <div className="mx-auto lg:flex pt-8 pb-4">
         <div className="w-full lg:w-1/2 left z-20 my-auto">
           <div className="w-4/5 mx-auto text_wrapper">
             <h2 className="text-4xl md:text-6xl text-black my-2 mb-6">
@@ -41,6 +43,19 @@ const About = () => {
         </div>
       </div>
       <div className="mx-auto lg:flex py-8">
+        <div
+          className="squares-container absolute hidden lg:block"
+          style={{
+            backgroundImage: `url(${squares})`,
+            backgroundRepeat: "no-repeat",
+            backgroundAttachment: "fixed",
+            backgroundSize: "contain,",
+            width: "100vw",
+            backgroundPosition: "25% center",
+            height: "100vh",
+            opacity: "0.5",
+          }}
+        ></div>
         <div className="img_wrapper w-full lg:w-1/2 relative left z-10 hidden lg:block text-center m-auto overflow-hidden">
           <SimpleImageSlider
             width={600}
@@ -54,7 +69,7 @@ const About = () => {
             slideDuration={1}
           />
         </div>
-        <div className="w-full lg:w-1/2 right z-20 my-auto">
+        <div className="w-full lg:w-1/2 right z-20 my-auto relative bg-white">
           <div className="w-4/5 mx-auto text_wrapper">
             <h2 className="text-4xl md:text-6xl text-black mt-6 mb-6">
               Arhitektuur

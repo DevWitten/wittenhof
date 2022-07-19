@@ -131,9 +131,9 @@ textarea:focus-visible {
   margin-bottom: 20px;
 }
 
-/* #contact {
-    margin: 100px auto;
-} */
+#contact {
+  background-color: #fff;
+}
 
 #contact h2 {
   color: #90b3b7;
