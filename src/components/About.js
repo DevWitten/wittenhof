@@ -53,7 +53,7 @@ const About = () => {
             width: "100vw",
             backgroundPosition: "25% center",
             height: "100vh",
-            opacity: "0.5",
+            opacity: "0.25",
           }}
         ></div>
         <div className="img_wrapper w-full lg:w-1/2 relative left z-10 hidden lg:block text-center m-auto overflow-hidden">
